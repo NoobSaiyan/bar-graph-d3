@@ -15,7 +15,7 @@ const BarChart: React.FC<props> = ({ width, height, data }) => {
       .attr('width', width)
       .attr('height', height)
       .style('border', '1px solid black')
-      .style('margin-top')
+      .style('margin-top', '10px')
   })
 
   useEffect(() => {
